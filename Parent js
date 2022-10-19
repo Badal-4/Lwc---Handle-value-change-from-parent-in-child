@@ -1,0 +1,8 @@
+import { LightningElement } from 'lwc';
+
+export default class Parent extends LightningElement {
+    fieldValue;
+    handleChange(event) {
+        this.fieldValue = event.target.value;
+    }
+}
