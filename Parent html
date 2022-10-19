@@ -1,0 +1,6 @@
+<template>
+    <lightning-input onchange={handleChange} label="Enter a fruit name"></lightning-input>
+    <div class="slds-card slds-box">
+        <c-child fruit-name={fieldValue}></c-child>
+    </div>
+</template>
